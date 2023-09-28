@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+:root {
+  --primary-color: #2476ff;
+  --alice-blue: #ecf2ff;
+  --ghost-white: #e6e9f2;
+  --white: #fff;
+  --black: #000;
+  --slate-gray: #677788;
+  --correct: #01c9a7;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.flex {
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Lists Style - START */
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--slate-gray);
+}
+
+ul li a:hover {
+  color: var(--primary-color);
+}
+
+/* Lists Style - END */
+
+/* Titles - START */
+
+.title > * {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--slate-gray);
+}
+
+/* Titles - END */
+
+/* Button - START */
+
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  background: var(--primary-color);
+}
+
+.btn > a {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--white);
+}
+
+.btn a .btn-play {
+  width: 18px;
+  height: 18px;
+}
+
+.btn a .btn-play img {
+  object-fit: cover;
+  fill: var(--white);
+}
+
+/* Button - END */
+
+/* Learn More - START */
+
+.learn-more > a {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: var(--primary-color);
+}
+
+/* Learn More - END */
+
+/* Tags - START */
+.status {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  align-items: flex-start;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--white);
+  background: var(--correct);
+}
+
+.hiring {
+  margin-left: 9px;
+  padding: 2px 4px;
+  font-size: 8px;
+  border-radius: 3px;
+  color: var(--white);
+  background: #2474ff;
+  box-shadow: 0 0 10px #2474ff80;
+  overflow: visible;
+}
+
+/* Tags - END */

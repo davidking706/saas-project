@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 4094 2068" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1772.59" id="Filter" width="1264.7" x="2829.7" y="-0.296247">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.118499"/>
+</filter>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="1993.48" x2="2302.55" y1="836.251" y2="1981.23">
+<stop offset="0" stop-color="#d9d9d9" stop-opacity="0.00358705"/>
+<stop offset="1" stop-color="#d9d9d9" stop-opacity="0.44"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="2068.59" id="Filter_2" width="3541.06" x="-0.296247" y="-0.296247">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.118499"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="2068" width="4094" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M3538 4.54747e-13L4094 4.54747e-13L4094.1 1639.78L2830 1772L3538 4.54747e-13Z" fill="#e1e7ef" fill-rule="nonzero" filter="url(#Filter)" opacity="1" stroke="#16ef4f" stroke-linecap="butt" stroke-linejoin="bevel" stroke-width="0" vectornator:blur="0.236998" vectornator:layerName="Rectangle 2"/>
+<path d="M0-2.27374e-13L3540.47 4.54747e-13L2831.97 1772L0 2068L0-2.27374e-13Z" fill="url(#LinearGradient)" fill-rule="nonzero" filter="url(#Filter_2)" opacity="1" stroke="none" vectornator:blur="0.236998" vectornator:layerName="Rectangle 1"/>
+</g>
+</svg>
